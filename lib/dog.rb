@@ -1,7 +1,11 @@
 # Your code goes here!
 class Dog
+  def name=(dog_name)
+    Fido = (dog_name)
+  end
+
   def name
-    puts fido
+    Fido
   end
 
   def bark
@@ -9,4 +13,5 @@ class Dog
   end
 end
 
-fido = Dog.new
+Fido = Dog.new
+Fido.name = "Snoopy"
